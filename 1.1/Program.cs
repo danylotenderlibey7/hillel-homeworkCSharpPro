@@ -38,45 +38,45 @@ class Program
         int calculator_operation = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Input first number: ");
-        double a = Convert.ToDouble(Console.ReadLine());
-        double b = 0;
-        if (calculator_operation >= 1 && calculator_operation <= 5)
+        double first_number = Convert.ToDouble(Console.ReadLine());
+        double second_number = 0;
+        if ((CalculatorOperation)calculator_operation <= CalculatorOperation.Divide)
         {
             Console.Write("Input second number: ");
-            b = Convert.ToDouble(Console.ReadLine());
+            second_number = Convert.ToDouble(Console.ReadLine());
         }
         double result;
 
         try
         {
-            switch (calculator_operation)
+            switch ((CalculatorOperation)calculator_operation)
             {
-                case 1:
-                    result = calculator.Add(a, b);
+                case CalculatorOperation.Add:
+                    result = calculator.Add(first_number, second_number);
                     break;
-                case 2:
-                    result = calculator.Subtract(a, b);
+                case CalculatorOperation.Subtract:
+                    result = calculator.Subtract(first_number, second_number);
                     break;
-                case 3:
-                    result = calculator.Multiply(a, b);
+                case CalculatorOperation.Multiply:
+                    result = calculator.Multiply(first_number, second_number);
                     break;
-                case 4:
-                    result = calculator.Divide(a, b);
+                case CalculatorOperation.Divide:
+                    result = calculator.Divide(first_number, second_number);
                     break;
-                case 5 when calculator_number == 2:
-                    result = ((Calculator_Advanced)calculator).Power(a, b);
+                case CalculatorOperation.Power when calculator_number == 2:
+                    result = ((Calculator_Advanced)calculator).Power(first_number, second_number);
                     break;
-                case 6 when calculator_number == 2:
-                    result = ((Calculator_Advanced)calculator).Sqrt(a);
+                case CalculatorOperation.Sqrt when calculator_number == 2:
+                    result = ((Calculator_Advanced)calculator).Sqrt(first_number);
                     break;
-                case 7 when calculator_number == 2:
-                    result = ((Calculator_Advanced)calculator).Sin(a);
+                case CalculatorOperation.Sin when calculator_number == 2:
+                    result = ((Calculator_Advanced)calculator).Sin(first_number);
                     break;
-                case 8 when calculator_number == 2:
-                    result = ((Calculator_Advanced)calculator).Cos(a);
+                case CalculatorOperation.Cos when calculator_number == 2:
+                    result = ((Calculator_Advanced)calculator).Cos(first_number);
                     break;
-                case 9 when calculator_number == 2:
-                    result = ((Calculator_Advanced)calculator).Tan(a);
+                case CalculatorOperation.Tan when calculator_number == 2:
+                    result = ((Calculator_Advanced)calculator).Tan(first_number);
                     break;
                 default:
                     Console.WriteLine("Invalid operation choice.");

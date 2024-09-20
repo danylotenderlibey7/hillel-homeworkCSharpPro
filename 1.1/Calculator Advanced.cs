@@ -8,32 +8,32 @@ namespace _1._1
 {
     public class Calculator_Advanced : Calculator
     {
-        public double Power(double a, double power)
+        public double Power(double first_number, double power)
         {
-            return Math.Pow(a, power);
+            return Math.Pow(first_number, power);
         }
-        public double Sqrt(double a)
+        public double Sqrt(double first_number)
         {
-            if (a < 0)
+            if (first_number < 0)
             {
                 throw new ArgumentOutOfRangeException("The square root of a negative number cannot be taken");
             }
             else
             {
-                return Math.Sqrt(a);
+                return Math.Sqrt(first_number);
             }
         }
-        public double Sin(double a)
+        public double Sin(double first_number)
         { 
-            return Math.Sin(a);
+            return Math.Sin(first_number);
         }
-        public double Cos(double a)
+        public double Cos(double first_number)
         {
-            return Math.Cos(a);
+            return Math.Cos(first_number);
         }
-        public double Tan(double a)
+        public double Tan(double first_number)
         {
-            return Math.Tan(a);
+            return Math.Tan(first_number);
         }
     }
 }
