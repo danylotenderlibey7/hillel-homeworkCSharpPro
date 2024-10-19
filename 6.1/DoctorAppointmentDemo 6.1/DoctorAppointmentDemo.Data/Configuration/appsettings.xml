@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Doctor>
+		<DoctorType>1</DoctorType>
+		<Experience>5</Experience>
+		<Salary>60000</Salary>
+		<Name>John</Name>
+		<Surname>Doe</Surname>
+	</Doctor>
+	<Doctor>
+		<DoctorType>2</DoctorType>
+		<Experience>10</Experience>
+		<Salary>80000</Salary>
+		<Name>Jane</Name>
+		<Surname>Smith</Surname>
+	</Doctor>
+</ArrayOfDoctor>
