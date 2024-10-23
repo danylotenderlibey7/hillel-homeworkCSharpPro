@@ -1,0 +1,50 @@
+[
+  {
+    "IllnestType": 1,
+    "AdditionalInfo": "23",
+    "Address": "23",
+    "Name": "Fo",
+    "Surname": "So",
+    "Phone": null,
+    "Email": null,
+    "Id": 1,
+    "CreatedAt": "2024-10-23T15:53:03.9737146+03:00",
+    "UpdatedAt": "2024-10-23T15:53:42.5068066+03:00"
+  },
+  {
+    "IllnestType": 1,
+    "AdditionalInfo": "huhuewp",
+    "Address": "sqsq",
+    "Name": "Popopo",
+    "Surname": "Lololo",
+    "Phone": null,
+    "Email": null,
+    "Id": 2,
+    "CreatedAt": "2024-10-23T15:53:25.3384554+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnestType": 3,
+    "AdditionalInfo": "",
+    "Address": "",
+    "Name": "Alima",
+    "Surname": "Huygd",
+    "Phone": null,
+    "Email": null,
+    "Id": 3,
+    "CreatedAt": "2024-10-23T18:05:46.1637749+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnestType": 1,
+    "AdditionalInfo": "45",
+    "Address": "",
+    "Name": "GYGY",
+    "Surname": "GUGU",
+    "Phone": null,
+    "Email": null,
+    "Id": 4,
+    "CreatedAt": "2024-10-23T18:06:55.2548342+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
