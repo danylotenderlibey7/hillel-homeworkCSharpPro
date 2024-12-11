@@ -36,7 +36,7 @@ namespace _7._1
                 Console.WriteLine($"The client {clientCount} is on a barber chair");
                 barberSleepChair.Release();// Барбер просыпаеться
 
-                Thread.Sleep(random.Next(1, 6) * 1000);//Время стрижки
+                Thread.Sleep(random.Next(1, 3) * 1000);//Время стрижки
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"The client {clientCount} left the barbershop");
                 Console.ResetColor();
@@ -61,7 +61,7 @@ namespace _7._1
                 Console.WriteLine("The barber woke up and started cutting");
                 Console.WriteLine();
 
-                Thread.Sleep(random.Next(1, 6) * 1000);//время стрижки
+                Thread.Sleep(random.Next(1, 3) * 1000);//время стрижки
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("The barber has finished his work");
                 Console.ResetColor();

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int totalClients = new Random().Next(3, 10);
-            int waitingChairCount = new Random().Next(2, 5);
+            int totalClients = new Random().Next(1, 10);
+            int waitingChairCount = new Random().Next(1, 4);
             Console.WriteLine($"There are {totalClients} clients");
             Console.WriteLine();
 
@@ -22,7 +22,7 @@
                 clientThreads.Add(clientThread);//добавление потока в список
                 clientThread.Start();//запуск клиента
 
-                Thread.Sleep(new Random().Next(1, 3)*1000);//время прибытия другого клиента
+                Thread.Sleep(new Random().Next(1, 7)*1000);//время прибытия другого клиента
             }
 
             foreach (var thread in clientThreads)//ожидания прибытия всех клиентов

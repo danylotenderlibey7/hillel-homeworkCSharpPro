@@ -1,0 +1,74 @@
+[
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya",
+    "Surname": "Petrov",
+    "Phone": null,
+    "Email": null,
+    "Id": 2,
+    "CreatedAt": "2023-09-10T12:53:21.8815896+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya",
+    "Surname": "Petrov",
+    "Phone": null,
+    "Email": null,
+    "Id": 7,
+    "CreatedAt": "2024-10-21T19:57:25.3644881+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya",
+    "Surname": "Petrov",
+    "Phone": null,
+    "Email": null,
+    "Id": 8,
+    "CreatedAt": "2024-10-23T14:14:48.6453483+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 3,
+    "Experience": 0,
+    "Salary": 0.0,
+    "Name": "Danylo",
+    "Surname": "Lysiuk",
+    "Phone": null,
+    "Email": null,
+    "Id": 9,
+    "CreatedAt": "2024-10-23T14:33:57.2477447+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 0,
+    "Salary": 0.0,
+    "Name": "okok",
+    "Surname": "koko",
+    "Phone": null,
+    "Email": null,
+    "Id": 10,
+    "CreatedAt": "2024-10-23T14:36:45.4102377+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 4,
+    "Experience": 0,
+    "Salary": 0.0,
+    "Name": "lo",
+    "Surname": "8787",
+    "Phone": null,
+    "Email": null,
+    "Id": 11,
+    "CreatedAt": "2024-10-23T14:37:54.342709+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
